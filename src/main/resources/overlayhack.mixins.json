@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "mod.grimmauld.overlayhack.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "smartstrip.refmap.json",
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8",
+  "mixins": [
+  ]
+}
