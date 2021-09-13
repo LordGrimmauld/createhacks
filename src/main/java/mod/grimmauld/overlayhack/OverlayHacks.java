@@ -11,7 +11,7 @@ import static mod.grimmauld.overlayhack.BuildConfig.MODID;
 
 @Mod(MODID)
 public class OverlayHacks {
-	private static final Logger LOGGER = LogManager.getLogger(MODID);
+	public static final Logger LOGGER = LogManager.getLogger(MODID);
 
 	public OverlayHacks() {
 		DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> () -> FMLJavaModLoadingContext.get().getModEventBus().addListener(OverlayHackClient::setupOverlay));

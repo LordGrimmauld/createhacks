@@ -58,7 +58,7 @@ minecraft {
             jvmArgs "-XX:+UnlockCommercialFeatures"
 
             mods {
-                smartstrip {
+                "${modid}" {
                     source sourceSets.main
                 }
             }
@@ -73,7 +73,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                smartstrip {
+                "${modid}" {
                     source sourceSets.main
                 }
             }
